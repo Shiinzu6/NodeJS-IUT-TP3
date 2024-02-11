@@ -36,3 +36,8 @@ export const getDebug = () => {
 export const getLocalBroker = () => {
     return process.env.HOST_IP !== ""
 }
+
+export const getNumberWord = () => {
+    console.log("NUMBER_WORD : ", process.env.NUMBER_WORD)
+    return process.env.NUMBER_WORD
+}

@@ -14,7 +14,7 @@ const admin = redpanda.admin()
 
 /***
  *
- * @param topic: string
+ * @param topicName string
  * @param partitions: number
  * @param replicas: number
  */
